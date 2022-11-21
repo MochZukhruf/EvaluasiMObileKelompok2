@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">EvO</string>
+    <string name="name_heroes">name_heroes</string>
+    <string name="lorem">lorem</string>
+
+    <string-array name="data_name">
+        <item>The Scream</item>
+        <item>The Starry Night</item>
+        <item>Mona Lisa</item>
+        <item>Nebkheperure Tutankhamun</item>
+        <item>Coming Soon</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Der Schrei der Natur</item>
+        <item>Van Gogh - 1889</item>
+        <item>Da vinci - 1517</item>
+        <item>Firaun - 1922</item>
+        <item>Still In Process</item>
+
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>@drawable/scream</item>
+        <item>@drawable/night</item>
+        <item>@drawable/mona</item>
+        <item>@drawable/tutanchamu</item>
+        <item>@drawable/cum</item>
+
+    </string-array>
+    <string name="title_activity_item_hero">item_hero</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_file1">File1</string>
+</resources>

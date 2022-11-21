@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Frag1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pic2" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:fontFamily="@font/funt"
+            android:text="The Museum"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="60dp" />
+        <TextView
+            android:id="@+id/theme"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/title"
+            android:fontFamily="@font/funt"
+            android:text="The Whatever You Want To Know"
+            android:textAlignment="center"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+        <ImageView
+            android:layout_below="@id/theme"
+            android:layout_marginTop="40dp"
+            android:padding="10dp"
+            android:alpha="0.3"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:src="@drawable/fils"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/kel"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kelompok 2"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_marginBottom="20sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/kel1"
+                android:layout_below="@id/kel"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="F55121034 Moch. Zukhruf ain"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/kel2"
+                android:layout_below="@id/kel1"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="F55121005 Edward Crysanthus"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/kel3"
+                android:layout_below="@id/kel2"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="F55121018 Siti Nuraini Maitala"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/kel4"
+                android:layout_below="@id/kel3"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="F55121007 Andi Nirina Nursiana Zasqia"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="-->"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:layout_marginBottom="80dp"
+            android:textStyle="bold"
+            android:gravity="center|bottom"/>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
